@@ -34,7 +34,31 @@
 * fetch
   * 'git fetch' --- will get all branches, but not apply them
   * 'git branch -a' --- will show all branches, including remotes
+  * 'git fetch --prune' --- cleans up your remotes etc
   
 * branches
   * remote branches go to detached head state
   * 'git branch -vv' shows head state of each branch
+  * 'git push --mirror' nukes everything remotely, force pushes every branch you have locally
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
