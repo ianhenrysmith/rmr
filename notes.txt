@@ -41,6 +41,11 @@
   * 'git branch -vv' shows head state of each branch
   * 'git push --mirror' nukes everything remotely, force pushes every branch you have locally
   
+* pull requests
+  1) fork repo
+  2) make new branch
+  3) commit changes
+  4) pull request
   
   
   
