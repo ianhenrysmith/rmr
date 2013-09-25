@@ -1,0 +1,5 @@
+* commits should work like code
+  * keep stories to a commit
+  * use 'git merge --squash' to squash a branch into a single commit
+    * this will STAGE the diff
+    * after merge, use 'git branch -D <branch name>'
