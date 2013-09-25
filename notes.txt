@@ -1,5 +1,13 @@
 * commits should work like code
   * keep stories to a commit
-  * use 'git merge --squash' to squash a branch into a single commit
-    * this will STAGE the diff
-    * after merge, use 'git branch -D <branch name>'
+  
+* use 'git merge --squash' to squash a branch into a single commit
+  * this will STAGE the diff
+  * after merge, use 'git branch -D <branch name>' to hard-delete a branch
+  
+* 'git reset HEAD^' will get rid of your latest commit
+  
+* restoring deleted branch
+  * go to 'git reflog' to see HEAD history
+  * create new branch at HEAD position before branch was deleted
+  * 'git branch <branch name> HEAD@{5}' ----- or any MD5/HEAD nickname
