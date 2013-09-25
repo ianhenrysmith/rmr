@@ -17,4 +17,6 @@
     * useful if you have to patch multiple branches
     
 * rebasing
+  * only do a rebase on a topic branch!
+  * will base all of your commits off of HEAD@master
   
