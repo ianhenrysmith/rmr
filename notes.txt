@@ -25,4 +25,8 @@
     3) 'git checkout master'
     4) 'git merge <topic>'
     5) happy history :)
-  
+  * 'git merge -noff <topic>' will keep a bubble, not do straight line history
+  * with squash:
+    1) 'git checkout <topic>'
+    2) 'git rebase -i MD5' OR 'git rebase -i master'
+    3) 
