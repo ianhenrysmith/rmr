@@ -19,4 +19,10 @@
 * rebasing
   * only do a rebase on a topic branch!
   * will base all of your commits off of HEAD@master
+  * steps:
+    1) 'git rebase master'
+    2) <do the rebase>
+    3) 'git checkout master'
+    4) 'git merge <topic>'
+    5) happy history :)
   
