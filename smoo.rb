@@ -4,3 +4,10 @@ def main
 end
 
 main
+
+def butt
+  puts "butt"
+end
+
+butt
+
