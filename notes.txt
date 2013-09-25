@@ -11,3 +11,9 @@
   * go to 'git reflog' to see HEAD history
   * create new branch at HEAD position before branch was deleted
   * 'git branch <branch name> HEAD@{5}' ----- or any MD5/HEAD nickname
+  
+  
+* stash
+  * 'git stash apply' will apply the changes at the top of the stash, but not pop the changeset from the top of the stash
+    * useful if you have to patch multiple branches
+    
